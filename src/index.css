@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Pridi&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.mask{
+    padding: 40px;
+}
+.banner-content p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: larger;
+}
+.display{
+margin: 50px;
+text-align: center;
+padding: 30px;
+}
+.doctor-details{
+    margin: 40px;
+}
+.doctor-details p{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 60px;
+}
+.list{
+    margin: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.toast-body{
+    font-size: 18px;
+    text-align: justify;
+}
+@media screen and (max-width: 800px) {
+    .view-image{
+       width: 300px;
+    }
+    .doctor-details p{
+       margin-right: 20px;
+       text-align: left;
+    }
+  }
+  @media screen and (max-width: 500px) {
+
+    .display-section{
+        width: 100%;
+    }
+    .view-image{
+       width: 50vw;
+       text-decoration: none;
+       margin-right: 0px;
+    }
+.doctor-details p{
+    margin: 0px;
+    width: 100%;
+    font-size: 5vw;
+
+}
+.toast{
+    margin-right: 100px;
+}
+  }
